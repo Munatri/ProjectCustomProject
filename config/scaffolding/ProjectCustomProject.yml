@@ -8,16 +8,19 @@ packages:
   gitUsername: Munatri
   gitBranch: main
 - name: CustomPackage
+  version: "1.0"
   gitServerName: GithubOrigin
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
 services:
-- serviceName: project.projectcustom.integrations:testu
+- serviceName: project.projectcustom.integrations:tr
   packages:
   - name: ProjectCustomProject
     version: "1.0"
-- serviceName: pub.date:currentNanoTime
+  - name: CustomPackage
+    version: "1.0"
+- serviceName: pub.date:compareDates
   packages:
   - name: WmPublic
     version: 11.1.0.0.2033

@@ -12,3 +12,7 @@ services:
   packages:
   - name: ProjectCustomProject
     version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033

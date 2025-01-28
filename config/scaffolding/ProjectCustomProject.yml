@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: FlowDAPkg
+  gitServerName: AnushaGITTest
+  gitUrl: https://github.webmethods.io/anub
+  gitUsername: anub
+  gitBranch: main
 services:
 - serviceName: project.projectcustom.integrations:tr
   packages:

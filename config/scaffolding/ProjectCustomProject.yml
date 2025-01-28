@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+services:
+- serviceName: project.projectcustom.integrations:testu
+  packages:
+  - name: ProjectCustomProject
+    version: "1.0"

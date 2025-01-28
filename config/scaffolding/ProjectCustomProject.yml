@@ -20,7 +20,7 @@ packages:
   gitUsername: anub
   gitBranch: main
 services:
-- serviceName: project.projectcustom.integrations:tr
+- serviceName: project.projectcustom.integrations:eflow
   packages:
   - name: ProjectCustomProject
     version: "1.0"
@@ -28,7 +28,7 @@ services:
     version: "1.0"
   - name: CustomPackage
     version: "1.0"
-- serviceName: pub.date:compareDates
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.2033

@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="CustomPackage">1.0</value>
+    <value name="FlowDAPkg">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">9</value>
+  <value name="build">13</value>
   <null name="description"/>
   <value name="created_date">28-01-2025 07:34:36 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-01-28T07:36:49.534692686Z</value>
+  <value name="lastUpdated">2025-01-28T08:22:54.71101834Z</value>
   <value name="wmProjectId">fle220beb88e40a0b98fdfea</value>
   <value name="creator">Munatri Baruah</value>
 </Values>
